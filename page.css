@@ -1,0 +1,648 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+    body {
+        max-width: 2000px;
+        margin: 0 auto;
+        padding: 0px;
+      }
+
+
+nav{
+    position: fixed;
+    background-color: #fafafa;
+    width: 100%;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 9999;
+
+}
+
+.nav-writings{
+    display: flex;
+    height: 31px;
+    width: 413px;
+    justify-content: space-around;
+    font-size: 24px;
+    text-decoration-line: overline;
+
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./imgs/wonderful-colors-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1029px;
+}
+
+.timer-window{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 51px;
+    width: 795px;
+    height: 460px;
+    padding-top: 28px;
+    border-radius: 30px;
+    backdrop-filter: blur(40px);
+}
+
+.timer{
+    display: flex;
+    gap: 17px;
+}
+
+.timer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 133px;
+    width: 133px;
+    background-color: #293B8F;
+    color: white;
+    font-size: 32px;
+    border-radius: 22px;
+}
+
+
+.timer-window .fest23-logo{
+    background-image: url("./icons/aifest-logo-203x191.svg");
+    height: 191px;
+    width: 203px;
+}
+
+.register-now{
+    background-image: url("./imgs/register-now-background.jpg");
+    width: 359px;
+    height: 112px;
+    border: none;
+}
+
+.yellow-fleche{
+    width: 101px;
+    height: 115px;
+    background-image: url("./icons/fleche-yellow.png");
+}
+
+/*about section*/
+.about-section-title{
+width: 186px;
+height: 81px;
+
+font-family: 'Google Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 81px;
+
+color: #293B8F;
+}
+
+.what-is-gdsc
+{
+width: 351px;
+height: 51px;
+font-family: 'Google Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 51px;
+/* identical to box height */
+color: #293B8F;
+}
+
+.visit-our-website
+{
+    background-image: url(./imgs/visit-our-website-background.jpg);
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+
+}
+
+
+.what-is-aifest
+{
+width: 351px;
+height: 51px;
+font-family: 'Google Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 51px;
+/* identical to box height */
+color: #293B8F;
+}
+
+.what-is-aifest-answer
+{
+width: 876px;
+height: 184px;
+
+font-family: 'Google Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 46px;
+text-align: center;
+
+color: #1E1E1E;
+}
+
+.workshops-section
+{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./imgs/talks-and-workshops.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1029px;
+}
+
+.GDSC-logo1
+{
+    background-image: url("./imgs/GDSC.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 73px;
+    height: 36px;
+    left: 390px;
+    top: 1500px;
+}
+
+.GDSC-logo2
+{
+    background-image: url("./imgs/GDSC.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 73px;
+    height: 36px;
+    left: 1054px;
+    top: 1500px;
+}
+
+
+
+.Talks-and-workshop-title
+{
+    position: absolute;
+    color: white;
+    top:1480px;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 60px;  
+}
+
+.workshop-mentor
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 547px;
+    left: 490px;
+    top: 1680px;
+    background: #90CAF9;
+    border-radius: 20px;
+}
+
+.mentor-pic
+{
+    background: url("./imgs/mentor-pic.jpg") #D9D9D9;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 171px;
+    height: 172px;
+    left: 190px;
+    top: 70px;
+    border: 5px solid #000000;
+    z-index: 1;
+}
+
+.mentor-description
+{
+    box-sizing: border-box;
+    position: absolute;
+    width: 346px;
+    height: 142px;
+    left: 110px;
+    top: 200px;
+    background: #4285F4;
+    border: 3px solid #000000;
+}
+
+.Description 
+{
+    position: absolute;
+    width: 326px;
+    height: 46px;
+    left: 30px;
+    top: 60px;
+    color: white;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.talk-title
+{
+    position: absolute;
+    width: 326px;
+    height: 81px;
+    left: 130px;
+    top: 400px;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 81px;
+    color: #293B8F; 
+}
+
+.footer
+{
+    position: absolute;
+    top: 2490px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: row;
+}
+
+.colors
+{
+    height: 8px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.line1
+{
+    background-color: #EA4335;
+    width: 25%;
+}
+
+.line2
+{
+    background-color: #34A853;
+    width: 25%;
+}
+
+.line3
+{
+    background-color: #FFC107;
+    width: 25%;
+}
+
+.line4
+{
+    background-color: #2196F3;
+    width: 25%;
+}
+
+.contact-us
+{
+    position: absolute;
+    left: 167px;
+    top: 50px;
+    height: 200px;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact
+{
+    position: absolute;
+    width: 185px;
+    height: 46px;
+    left: 100px;
+    top: 10px;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #2196F3;
+}
+
+
+.list1
+{
+    padding-left:0;
+    margin-top: 100px;
+    list-style:none;
+}
+
+.l1
+{ 
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.list1 li
+{
+    display:block;
+}
+
+.list1 a
+{
+    color: #293B8F; 
+}
+
+a:link
+{ 
+    text-decoration: none;
+}
+
+a:visited
+{
+    text-decoration: none;
+}
+
+a:hover
+{ 
+    text-decoration: underline;
+}
+
+a:active
+{ 
+    text-decoration: underline;
+}
+
+.img1
+{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    
+}
+
+.follow-us
+{
+    position: absolute;
+    left: 900px;
+    top: 50px;
+    height: 200px;
+    width: 400px;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Follow
+{
+    position: absolute;
+    width: 185px;
+    height: 46px;
+    left: 105px ;
+    top: 10px;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #2196F3;
+}
+
+.list2
+{
+    padding-left:0;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+}
+
+.list2 li
+{
+    display:block;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    left: 60px;
+    top: 10px;
+}
+
+.c1
+{
+    background-color: #293B8F;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    left: 200px;
+    top: 300px;
+}
+
+.app-icon
+{
+    height: 25px;
+    width: 25px;
+    margin-left: 15px;
+    margin-top: 14px;
+   
+}
+
+@media screen and (max-width: 480px) {
+
+body
+{
+        font-size: 14px;
+}
+      
+button, a 
+{
+        font-size: 12px;
+        padding: 0px;
+}
+
+.workshops-section
+{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./imgs/talks-and-workshops.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1029px;
+    width: 1295px;
+    
+}
+
+.GDSC-logo1
+{
+    background-image: url("./imgs/GDSC.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 73px;
+    height: 36px;
+    left: 230px;
+    top: 1530px;
+}
+
+.GDSC-logo2
+{
+    background-image: url("./imgs/GDSC.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 73px;
+    height: 36px;
+    left: 940px;
+    top: 1530px;
+}
+
+
+
+.Talks-and-workshop-title
+{
+    position: absolute;
+    color: white;
+    top:1500px;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 60px; 
+    width: 600px;
+}
+
+.workshop-mentor
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 547px;
+    left: 320px;
+    top: 1680px;
+    background: #90CAF9;
+    border-radius: 20px;
+}
+
+.footer
+{
+    position: absolute;
+    top: 2490px;
+    width: 1300px;
+    height: 320px;
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: row;
+}
+
+.colors
+{
+    height: 9px;
+    width: 1295  px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-us
+{
+    position: absolute;
+    left: 120px;
+    top: 50px;
+    height: 200px;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.follow-us
+{
+    position: absolute;
+    left: 860px;
+    top: 50px;
+    height: 200px;
+    width: 400px;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+
+img 
+{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
